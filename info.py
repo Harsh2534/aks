@@ -27,7 +27,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001769642119'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/masalafiles')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001805305525').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Db1:Db1@cluster0.xtyzeqm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://ttttechnicalaks7:popularaks7@cluster0.wzr4k9b.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Db2:Db2@cluster0.vy3pbot.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Aks')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001925490938'))
