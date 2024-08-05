@@ -20,10 +20,10 @@ def is_enabled(value, default):
 #main variables
 API_ID = int(environ.get('API_ID', '27494535'))
 API_HASH = environ.get('API_HASH', '52210cf4440a4a2b816ed1bcad615d4d')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6540424193:AAFSO7TDITl1X73YhV56P1z-0e0kHgg7vWY')
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1030335104').split()]
+BOT_TOKEN = environ.get('BOT_TOKEN', '7192284716:AAHckJU_i4YdHjlo3I9ceLJMMj4JOQNHTvQ')
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5601277336').split()]
 USERNAME = environ.get('USERNAME', 'https://t.me/Aks_support01_bot')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001769642119'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002076993122'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/masalafiles')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001805305525').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Db1:Db1@cluster0.xtyzeqm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
