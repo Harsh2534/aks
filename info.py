@@ -39,7 +39,7 @@ URL = environ.get('URL', 'https://aks-file-to-link-525cd78edc50.herokuapp.com')
 
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001508306685'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002076993122'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/how_to_download_channel/18")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/how_to_download_channel/17")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
@@ -52,9 +52,9 @@ TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
 # languages search
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1001934393406'))
-AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1001934393406'))
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001857065489'))
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002076993122'))
+AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002076993122'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001675828808'))
 
 # hastags request features
 request_channel = environ.get('REQUEST_CHANNEL', '-1001798901887')
